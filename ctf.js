@@ -21,7 +21,7 @@ http.createServer(function (request, response) {
   generateResponse(response);
 
   
-}).listen(8080);
+}).listen(80);
 
 function algo(state) {
 
