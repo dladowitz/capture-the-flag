@@ -1,0 +1,11 @@
+For all moves
+If not empty, discard
+If empty then
+  If move is N and Y<0 N is valid
+  If move is S and Y>0 S is valid
+  If move is E and X<0 E is valid
+  If move is W and X>0 W is valid
+end
+
+If no valid moves, hold
+  else rand(valid moves)
